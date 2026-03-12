@@ -1,0 +1,63 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .name { font-family: 'Georgia', 'Times New Roman', serif; font-size: 68px; font-weight: 700; fill: #e8edf2; font-style: italic; }
+      .name-accent { fill: #00d4c8; }
+      .tag { font-family: 'Courier New', 'Lucida Console', monospace; font-size: 12px; fill: #8a9bac; letter-spacing: 0.12em; }
+      .scan-line { fill: none; stroke: rgba(0,212,200,0.07); stroke-width: 80; animation: scan 5s linear infinite; }
+      @keyframes scan { 0% { transform: translateY(-80px); } 100% { transform: translateY(280px); } }
+      .dot-pulse { animation: pulse 2.5s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+      .cursor-blink { animation: blink 1s step-end infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+    <clipPath id="clip-main"><rect width="900" height="200" rx="3"/></clipPath>
+    <radialGradient id="glow-left" cx="20%" cy="55%" r="50%">
+      <stop offset="0%" stop-color="#00d4c8" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#00d4c8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#clip-main)">
+    <rect width="900" height="200" fill="#080b0f"/>
+    <rect width="900" height="200" fill="url(#glow-left)"/>
+    <line stroke="rgba(0,212,200,0.05)" stroke-width="1" x1="0" y1="50"  x2="900" y2="50"/>
+    <line stroke="rgba(0,212,200,0.05)" stroke-width="1" x1="0" y1="100" x2="900" y2="100"/>
+    <line stroke="rgba(0,212,200,0.05)" stroke-width="1" x1="0" y1="150" x2="900" y2="150"/>
+    <line stroke="rgba(0,212,200,0.04)" stroke-width="1" x1="200" y1="0" x2="200" y2="200"/>
+    <line stroke="rgba(0,212,200,0.04)" stroke-width="1" x1="400" y1="0" x2="400" y2="200"/>
+    <line stroke="rgba(0,212,200,0.04)" stroke-width="1" x1="600" y1="0" x2="600" y2="200"/>
+    <line stroke="rgba(0,212,200,0.04)" stroke-width="1" x1="800" y1="0" x2="800" y2="200"/>
+    <line class="scan-line" x1="0" y1="0" x2="900" y2="0"/>
+    <polyline points="18,10 10,10 10,18"       fill="none" stroke="#00d4c8" stroke-width="1.5"/>
+    <polyline points="882,190 890,190 890,182" fill="none" stroke="#00d4c8" stroke-width="1.5"/>
+    <text class="tag" x="550" y="22" fill="#2a3340" font-size="11">43.7697&#176;N &#183; 1.2919&#176;E &#183; Occitanie, FR</text>
+    <rect fill="#00d4c8" x="48" y="38" width="3" height="124" rx="1.5"/>
+    <text class="name" x="72" y="112">Sli<tspan class="name-accent">mane</tspan></text>
+    <text class="tag" x="72" y="136">
+      <tspan fill="#f0a500">Analytics Engineer</tspan>
+      <tspan fill="#2a3340" dx="6">&#183;</tspan>
+      <tspan fill="#8a9bac" dx="6">Instructor @LeWagon</tspan>
+      <tspan fill="#2a3340" dx="6">&#183;</tspan>
+      <tspan fill="#8a9bac" dx="6">SaaS Founder</tspan>
+    </text>
+    <circle class="dot-pulse" cx="72" cy="157" r="4.5" fill="#22c55e"/>
+    <text class="tag" x="86" y="161" fill="#22c55e" font-size="11.5">Available for freelance missions</text>
+    <line stroke="#1e2530" stroke-width="1" x1="48" y1="173" x2="852" y2="173"/>
+    <text class="tag" x="72" y="188" font-size="11">
+      <tspan fill="#4a5a6a">Python</tspan>
+      <tspan fill="#2a3340" dx="6">&#183;</tspan>
+      <tspan fill="#4a5a6a" dx="6">dbt</tspan>
+      <tspan fill="#2a3340" dx="6">&#183;</tspan>
+      <tspan fill="#4a5a6a" dx="6">BigQuery</tspan>
+      <tspan fill="#2a3340" dx="6">&#183;</tspan>
+      <tspan fill="#4a5a6a" dx="6">DuckDB</tspan>
+      <tspan fill="#2a3340" dx="6">&#183;</tspan>
+      <tspan fill="#4a5a6a" dx="6">Prefect</tspan>
+      <tspan fill="#2a3340" dx="6">&#183;</tspan>
+      <tspan fill="#4a5a6a" dx="6">FastAPI</tspan>
+      <tspan fill="#2a3340" dx="6">&#183;</tspan>
+      <tspan fill="#4a5a6a" dx="6">Supabase</tspan>
+    </text>
+    <rect class="cursor-blink" x="842" y="178" width="7" height="13" fill="#00d4c8" opacity="0.6"/>
+  </g>
+</svg>
