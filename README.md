@@ -50,7 +50,7 @@ profile = {
 <table>
 <tr>
 
-<td width="50%" valign="top">
+<td width="100%" valign="top">
 <h4>
   <img src="https://img.shields.io/badge/01-ferrodata--analytical--plateform-f0a500?style=flat-square&labelColor=080b0f" alt="01"/>
 </h4>
@@ -68,9 +68,9 @@ End-to-end analytics platform on **French railway punctuality** (SNCF Open Data)
 
 </td>
 
-<td width="50%" valign="top">
+<td width="50%" valign="bottom">
 <h4>
-  <img src="https://img.shields.io/badge/01-dbt--analytics--showcase-00d4c8?style=flat-square&labelColor=080b0f" alt="01"/>
+  <img src="https://img.shields.io/badge/02-dbt--analytics--showcase-00d4c8?style=flat-square&labelColor=080b0f" alt="02"/>
 </h4>
 
 Production-grade analytics engineering pipeline on the **Olist e-commerce dataset**. Full Medallion architecture with dbt Core + DuckDB, 25+ tests, automated CI.
@@ -84,9 +84,9 @@ Production-grade analytics engineering pipeline on the **Olist e-commerce datase
 
 </td>
 
-<td width="50%" valign="top">
+<td width="50%" valign="bottom">
 <h4>
-  <img src="https://img.shields.io/badge/02-modern--data--pipeline-f0a500?style=flat-square&labelColor=080b0f" alt="02"/>
+  <img src="https://img.shields.io/badge/03-modern--data--pipeline-f0a500?style=flat-square&labelColor=080b0f" alt="03"/>
 </h4>
 
 End-to-end ELT pipeline tracking **GitHub trending repos**. GitHub API → DuckDB → dbt → Evidence.dev dashboard. Orchestrated with Prefect, running on a daily schedule.
