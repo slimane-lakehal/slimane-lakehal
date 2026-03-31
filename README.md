@@ -63,6 +63,7 @@ End-to-end analytics platform on **French railway punctuality** (SNCF Open Data)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlebigquery&logoColor=white)
 
+→ [Streamlit Dashboard](https://ferrodata.streamlit.app/)
 → [github.com/slimane-lakehal/ferrodata](https://github.com/slimane-lakehal/ferrodata)
 
 </td>
