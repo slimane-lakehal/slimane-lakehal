@@ -44,10 +44,29 @@ profile = {
 ---
 
 <!-- Projects -->
+
 ## `> ls ./projects`
 
 <table>
 <tr>
+
+<td width="50%" valign="top">
+<h4>
+  <img src="https://img.shields.io/badge/01-ferrodata--analytical--plateform-f0a500?style=flat-square&labelColor=080b0f" alt="01"/>
+</h4>
+
+End-to-end analytics platform on **French railway punctuality** (SNCF Open Data). Python ingestion with Strategy Pattern, dbt transformation (staging → marts), and a Streamlit dashboard with DuckDB/BigQuery backend switching.
+
+**Stack:**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlebigquery&logoColor=white)
+
+→ [github.com/slimane-lakehal/ferrodata](https://github.com/slimane-lakehal/ferrodata)
+
+</td>
 
 <td width="50%" valign="top">
 <h4>
@@ -86,6 +105,7 @@ End-to-end ELT pipeline tracking **GitHub trending repos**. GitHub API → DuckD
 ---
 
 <!-- Products -->
+
 ## `> cat ./products`
 
 <table>
@@ -116,6 +136,7 @@ Food waste reduction platform for retail stores. Intelligent scoring engine pred
 ---
 
 <!-- Skills -->
+
 ## `> pip list`
 
 <div align="center">
@@ -146,15 +167,17 @@ Food waste reduction platform for retail stores. Intelligent scoring engine pred
 ---
 
 <!-- Languages chart -->
+
 ## `> dbt build`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=slimane-lakehal&layout=compact&theme=transparent&hide_border=true&title_color=00d4c8&text_color=8a9bac&bg_color=080b0f&langs_count=6" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=slimane-lakehal&layout=compact&theme=transparent&hide_border=true&title_color=00d4c8&text_color=8a9bac&bg_color=080b0&exclude_repo=scikit-learn,Daily-Dose-of-Data-Science,chart-doctor,books,aeroapps,energetic-stress-production" alt="Top Languages"/>
 </div>
 
 ---
 
 <!-- Contact -->
+
 ## `> curl contact`
 
 <div align="center">
